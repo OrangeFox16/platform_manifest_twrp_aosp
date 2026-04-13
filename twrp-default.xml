@@ -11,6 +11,10 @@
     <remote name="TWRP-A16"
             fetch="https://github.com/TWRP-Test"/>
 
+    
+    <remote name="fox_16.0"
+            fetch="https://github.com/OrangeFox16"/>
+
     <remote name="github"
             fetch="https://github.com"/>
 
@@ -72,7 +76,7 @@
     <project path="vendor/twrp" name="android_vendor_twrp" remote="TWRP-A16" revision="twrp-16.0" />
 
     <!-- Include libmicrohttpd for TWRP -->
-    <project name="android_external_libmicrohttpd" path="external/libmicrohttpd" remote="TWRP-A16" revision="twrp-16.0" />
+    <project name="android_external_libmicrohttpd" path="external/libmicrohttpd" remote="fox_16.0" revision="fox_16.0" />
     
     <!-- Include fake OMAPI for TWRP -->
     <project name="android_se_omapi" path="external/se_omapi" remote="TWRP-A16" revision="twrp-16.0" />
