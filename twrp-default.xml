@@ -72,7 +72,6 @@
     <project path="system/update_engine" name="android_system_update_engine" remote="TWRP-A16" revision="twrp-16.0"/>
     <project path="system/vold" name="android_system_vold" remote="TWRP-A16" revision="twrp-16.0"/>
     <project path="system/extras" name="android_system_extras" remote="TWRP-A16" revision="twrp-16.0"/>
-    <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" remote="fox_16.0" revision="fox_16.0"/>
 
     <!-- Use TeamWin custom vendor repo for build system -->
     <project path="vendor/twrp" name="android_vendor_twrp" remote="TWRP-A16" revision="twrp-16.0" />
