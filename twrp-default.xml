@@ -38,6 +38,7 @@
     <remove-project name="platform/system/sepolicy" />
     <remove-project name="platform/system/update_engine" />
     <remove-project name="platform/system/vold" />
+    <remove-project name="platform/packages/modules/Connectivity" />
     
 
     <!-- TWRP lives in TeamWin repo -->
@@ -103,6 +104,11 @@
     <!-- Include external Magisk repo for repack binaries -->
     <project path="external/magisk-prebuilt" name="external_magisk-prebuilt" remote="TeamWin" revision="android-12.1"/>
 
+    <project path="packages/modules/Connectivity"
+         name="android_packages_modules_Connectivity"
+         remote="fox_16.0"
+         revision="fox_16.0"/>
+    
     <!-- LAST: Remove unused projects for minimal manifest -->
     <include name="remove-minimal.xml"/>
 </manifest>
