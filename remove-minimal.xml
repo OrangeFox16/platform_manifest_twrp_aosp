@@ -489,6 +489,7 @@
     <remove-project path="packages/modules/ArtPrebuilt" />
     <remove-project path="packages/modules/CaptivePortalLogin" />
     <remove-project path="packages/modules/CellBroadcastService" />
+    <remove-project path="packages/modules/Connectivity" />
     <remove-project path="packages/modules/desktop/Serviceability" />
     <remove-project path="packages/modules/ExtServices" />
     <remove-project path="packages/modules/GeoTZ" />
