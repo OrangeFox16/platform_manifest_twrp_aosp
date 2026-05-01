@@ -223,7 +223,6 @@
     <remove-project path="external/libva-utils" />
     <remove-project path="external/libvpx" />
     <remove-project path="external/libwebm" />
-    <remove-project path="external/libwebsockets" />
     <remove-project path="external/libxaac" />
     <remove-project path="external/libxkbcommon" />
     <remove-project path="external/licenseclassifier" />

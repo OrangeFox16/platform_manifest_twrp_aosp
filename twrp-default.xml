@@ -104,8 +104,25 @@
     <!-- Include external Magisk repo for repack binaries -->
     <project path="external/magisk-prebuilt" name="external_magisk-prebuilt" remote="TeamWin" revision="android-12.1"/>
 
+    <!-- OrangeFox remote access page -->
     <project path="packages/modules/Connectivity"
          name="android_packages_modules_Connectivity"
+         remote="fox_16.0"
+         revision="fox_16.0"/>
+         
+    <!-- Build ttyd from source -->
+    <project path="external/libuv"
+         name="android_external_libuv"
+         remote="fox_16.0"
+         revision="fox_16.0"/>
+         
+    <project path="external/json-c"
+         name="android_external_json-c"
+         remote="fox_16.0"
+         revision="fox_16.0"/>
+         
+    <project path="external/ttyd"
+         name="android_external_ttyd"
          remote="fox_16.0"
          revision="fox_16.0"/>
     
