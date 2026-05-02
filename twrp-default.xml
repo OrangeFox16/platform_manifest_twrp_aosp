@@ -125,6 +125,11 @@
          name="android_external_ttyd"
          remote="fox_16.0"
          revision="fox_16.0"/>
+         
+    <project path="external/libwebsockets"
+         name="android_external_libwebsockets"
+         remote="fox_16.0"
+         revision="fox_16.0"/>
     
     <!-- LAST: Remove unused projects for minimal manifest -->
     <include name="remove-minimal.xml"/>
