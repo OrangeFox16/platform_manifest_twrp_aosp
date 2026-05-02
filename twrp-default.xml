@@ -39,6 +39,7 @@
     <remove-project name="platform/system/update_engine" />
     <remove-project name="platform/system/vold" />
     <remove-project name="platform/packages/modules/Connectivity" />
+    <remove-project name="external/libwebsockets" />
     
 
     <!-- TWRP lives in TeamWin repo -->
